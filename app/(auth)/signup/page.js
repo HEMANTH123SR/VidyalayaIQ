@@ -19,7 +19,7 @@ const SignUp = () => {
           <label htmlFor="name">Name</label>
           <div className="relative flex items-center">
             <input
-              className="py-2 border-2 border-red-400 rounded-md w-full  pl-7"
+              className="py-2 border-2 border-red-400 rounded-md w-full  pl-8"
               id="name"
               type="text"
               value={name}
@@ -32,7 +32,7 @@ const SignUp = () => {
           <label htmlFor="email">E-mail</label>
           <div className="relative flex items-center">
             <input
-              className="py-2 border-2 border-red-400 rounded-md w-full  pl-7"
+              className="py-2 border-2 border-red-400 rounded-md w-full  pl-8"
               id="email"
               type="email"
               value={email}
@@ -46,7 +46,7 @@ const SignUp = () => {
 
           <div className="relative flex items-center">
             <input
-              className="py-2 border-2 border-red-400 rounded-md w-full  pl-7"
+              className="py-2 border-2 border-red-400 rounded-md w-full  pl-8"
               id="password"
               type="password"
               value={password}
